@@ -2,11 +2,11 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/DenisFilisov/feed_consumer)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/DenisFilisov/feed_consumer)
 ![Github Repository Size](https://img.shields.io/github/repo-size/DenisFilisov/feed_consumer)
-![Github Open Issues](https://img.shields.io/github/issues/evt/immulogapi)
-![Lines of code](https://img.shields.io/tokei/lines/github/evt/immulogapi)
-![License](https://img.shields.io/github/license/evt/immulogapi)
-![GitHub last commit](https://img.shields.io/github/last-commit/evt/immulogapi)
-![GitHub contributors](https://img.shields.io/github/contributors/evt/immulogapi)
+![Github Open Issues](https://img.shields.io/github/issues/DenisFilisov/feed_consumer)
+![Lines of code](https://img.shields.io/tokei/lines/github/DenisFilisov/feed_consumer)
+![License](https://img.shields.io/github/license/DenisFilisov/feed_consumer)
+![GitHub last commit](https://img.shields.io/github/last-commit/DenisFilisov/feed_consumer)
+![GitHub contributors](https://img.shields.io/github/contributors/DenisFilisov/feed_consumer)
 
 <img align="right" width="50%" src="./images/big-gopher.jpg">
 
