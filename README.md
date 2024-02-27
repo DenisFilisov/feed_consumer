@@ -4,7 +4,7 @@
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/DenisFilisov/feed_consumer)
 ![Github Repository Size](https://img.shields.io/github/repo-size/DenisFilisov/feed_consumer)
 ![Github Open Issues](https://img.shields.io/github/issues/DenisFilisov/feed_consumer)
-![GitHub License](https://img.shields.io/github/license/DenisFilisov/feed_consumer)
+![License](https://img.shields.io/github/license/DenisFilisov/feed_consumer)
 ![GitHub last commit](https://img.shields.io/github/last-commit/DenisFilisov/feed_consumer)
 ![GitHub contributors](https://img.shields.io/github/contributors/DenisFilisov/feed_consumer)
 
