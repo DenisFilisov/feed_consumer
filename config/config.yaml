@@ -1,0 +1,12 @@
+application:
+  name: feed_consumer
+
+port: "8080"
+
+db:
+  mongo_db_host: "localhost"
+  mongo_db_port: "27017"
+  mongo_db_username: "root"
+  mongo_db_password: "myPassword"
+  mongo_db_database: "myDB"
+  mongo_db_collection: "myCollection"
