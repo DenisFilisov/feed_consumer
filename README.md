@@ -1,3 +1,13 @@
+![Go Report](https://goreportcard.com/badge/github.com/evt/immulogapi)
+![Repository Top Language](https://img.shields.io/github/languages/top/evt/immulogapi)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/evt/immulogapi)
+![Github Repository Size](https://img.shields.io/github/repo-size/evt/immulogapi)
+![Github Open Issues](https://img.shields.io/github/issues/evt/immulogapi)
+![Lines of code](https://img.shields.io/tokei/lines/github/evt/immulogapi)
+![License](https://img.shields.io/github/license/evt/immulogapi)
+![GitHub last commit](https://img.shields.io/github/last-commit/evt/immulogapi)
+![GitHub contributors](https://img.shields.io/github/contributors/evt/immulogapi)
+
 <img align="right" width="50%" src="./images/big-gopher.jpg">
 
 # Feed Consumer
