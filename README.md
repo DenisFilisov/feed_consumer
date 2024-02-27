@@ -1,5 +1,18 @@
 # feed_consumer
 Home task "Sports News"
+This task is based on a common business task we have within the backend team. We have a number of microservices that process data from external feed providers. This allows us to transform the data into a consistent and desirable format that the app developers can consume. It also provides stability so that, as is often the case, when the external provider has issues we can still provide data to the apps, albeit stale data.
+
+The project must meet the following requirements:
+Be written in Golang - https://golang.org/doc/ - 
+Use MongoDB to store news articles - (https://www.mongodb.com/download-center/community)
+At regular intervals, poll the endpoint for new news articles
+Transform the XML feeds of news articles into appropriate model(s) and save them in the database
+Provide two REST endpoints which return JSON:
+Retrieve a list of all articles
+Retrieve a single article by ID
+Comments where appropriate
+Send over README file listing what works and what doesn't - as well as instructions (if any) on how to run
+
 
 **What is contained:**
 1. Created GetAllNews and GetNewsByID endpoints
