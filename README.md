@@ -1,4 +1,4 @@
-![Go Report](https://goreportcard.com/badge/github.com/evt/immulogapi)
+![Go Report](https://goreportcard.com/badge/github.com/DenisFilisov/feed_consumer)
 ![GitHub top language](https://img.shields.io/github/languages/top/DenisFilisov/feed_consumer)
 ![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/quality/g/DenisFilisov/feed_consumer/main)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/DenisFilisov/feed_consumer)
