@@ -20,6 +20,7 @@ Send over README file listing what works and what doesn't - as well as instructi
 - :book: standard Go project layout (well, more or less :blush:)
 - :arrows_counterclockwise: REST API
 - :whale: dockerized + docker-composed
+- ❤️ Swagger auto-generated on make generate included
 - :elephant: MongoDB
 
 
