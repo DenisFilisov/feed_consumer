@@ -33,7 +33,7 @@ Send over README file listing what works and what doesn't - as well as instructi
 6. Make file
 7. Log Handler implemented
 
-##What is not implemented, but would be great
+##Nice to have
 1. Unit tests
 2. E2E tests
 3. Authentication by token
