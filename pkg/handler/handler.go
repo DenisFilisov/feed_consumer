@@ -24,7 +24,7 @@ func (h *Handler) InitRouters() *gin.Engine {
 	{
 		news := api.Group("/news")
 		{
-			news.GET("/", h.GetAllNews)
+			news.GET("/", h.getAllNews)
 			news.GET("/:id", h.getNewsById)
 		}
 	}
