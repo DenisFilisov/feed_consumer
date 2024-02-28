@@ -24,6 +24,21 @@ Retrieve a single article by ID
 Comments where appropriate
 Send over README file listing what works and what doesn't - as well as instructions (if any) on how to run
 
+**External Feeds**
+There are two feeds provided by our external provider for Huddersfield Town AFC club news:
+Get a list of the latest n news articles
+https://www.htafc.com/api/incrowd/getnewlistinformation?count=50
+Get additional details of a news article by ID
+https://www.htafc.com/api/incrowd/getnewsarticleinformation?id=XXXX
+
+**Example Output**
+Below are examples of output for the two REST endpoints. Ideally, your project should produce an output in a similar structure.
+Retrieve a list of all articles
+http://feeds.incrowdsports.com/provider/realise/v1/teams/t94/news
+Retrieve a single article by ID
+http://feeds.incrowdsports.com/provider/realise/v1/teams/t94/news/f48cf122-57f1-5512-bd80-b567e7f8c402
+
+
 ## Solution notes
 - :trident: clean architecture (handler->service->repository)
 - :book: standard Go project layout (well, more or less :blush:)
