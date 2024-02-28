@@ -1,6 +1,5 @@
 ![Go Report](https://goreportcard.com/badge/github.com/DenisFilisov/feed_consumer)
 ![GitHub top language](https://img.shields.io/github/languages/top/DenisFilisov/feed_consumer)
-![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/quality/g/DenisFilisov/feed_consumer/main)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/DenisFilisov/feed_consumer)
 ![Github Repository Size](https://img.shields.io/github/repo-size/DenisFilisov/feed_consumer)
 ![Github Open Issues](https://img.shields.io/github/issues/DenisFilisov/feed_consumer)
@@ -34,7 +33,7 @@ Send over README file listing what works and what doesn't - as well as instructi
 - :elephant: MongoDB
 
 
-##What is contained
+## What is contained
 1. Created GetAllNews and GetNewsByID endpoints
 2. Connection with MongoDb
 3. Graceful shutdown
@@ -43,13 +42,13 @@ Send over README file listing what works and what doesn't - as well as instructi
 6. Make file
 7. Log Handler implemented
 
-##Nice to have
+## Nice to have
 1. Unit tests
 2. E2E tests
 3. Authentication by token
 4. Library for working with mongoDB
 
-##How to run this application:
+## How to run this application:
 1. Start docker
 2. make run
 
