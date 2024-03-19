@@ -39,7 +39,7 @@ func (h *Handler) GetAllNews(c *gin.Context) {
 // @Failure 500 {object} errorResponse
 // @Failure default {object} errorResponse
 // @Router /api/news/{id} [get]
-func (h *Handler) getNewsById(c *gin.Context) {
+func (h *Handler) GetNewsById(c *gin.Context) {
 	id, err := strconv.Atoi(c.Param("id"))
 	if err != nil {
 		newErrorResponse(c, http.StatusBadRequest, err.Error())

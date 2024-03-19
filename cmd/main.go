@@ -45,7 +45,6 @@ func main() {
 
 	if err != nil {
 		logrus.Fatalf("Can't initialize db: %s", err.Error())
-		logrus.Printf("Can't initialize db: %s", err.Error())
 	}
 
 	repositories := repository.NewRepository(db)

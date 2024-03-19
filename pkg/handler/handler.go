@@ -24,8 +24,8 @@ func (h *Handler) InitRouters() *gin.Engine {
 	{
 		news := api.Group("/news")
 		{
-			news.GET("/", h.getAllNews)
-			news.GET("/:id", h.getNewsById)
+			news.GET("/", h.GetAllNews)
+			news.GET("/:id", h.GetNewsById)
 		}
 	}
 	router.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
