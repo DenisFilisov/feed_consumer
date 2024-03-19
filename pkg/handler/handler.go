@@ -34,13 +34,10 @@ func (h *Handler) InitRouters() *gin.Engine {
 }
 
 func (h *Handler) ScheduleNewsFeeds(ticker *time.Ticker) {
-	for {
-		select {
-		case <-ticker.C:
-			// Fetch data
-			if err := h.services.News.SaveAllNews(); err != nil {
-				logrus.Println("Error fetching data: ", err)
-			}
+	for range ticker.C {
+		// Fetch data
+		if err := h.services.News.SaveAllNews(); err != nil {
+			logrus.Println("Error fetching data: ", err)
 		}
 	}
 }

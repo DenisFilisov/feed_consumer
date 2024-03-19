@@ -77,7 +77,7 @@ func buildNewsModel(newsFromMongo newsItem) model.Data {
 	layout := "2006-01-02 15:04:05"
 	parsedTime, err := time.Parse(layout, newsFromMongo.Published)
 	if err != nil {
-		logrus.Info("Error parsing time: %v", err)
+		logrus.Infof("Error parsing time: %v", err)
 	}
 	return model.Data{
 		ID:          newsFromMongo.ID,
